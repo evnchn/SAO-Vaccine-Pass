@@ -18,9 +18,18 @@ https://evnchn.github.io/SAO-Vaccine-Pass-demo/offline.html
 
 ## Usage guide
 
-Use either ```index.html``` or ```offline.html```. SVG files need to be placed in the same directory for ```index.html```. 
+Use either ```index.html```, ```offline.html```, or the Demo URL above. 
 
-Edit ```scancontent``` variable in the HTML file or else it will link to https://youtu.be/dQw4w9WgXcQ
+For ```index.html```, SVG files need to be placed in the same directory. 
+
+If you open the HTML file directly on the mobile device: 
+- Best method: Edit ```scancontent``` variable in the HTML file (or else it will link to https://youtu.be/dQw4w9WgXcQ as a default)
+
+Alternatively
+- https://evnchn.github.io/SAO-Vaccine-Pass-demo/offline.html#REPLACE_THIS
+- Edit REPLACE_THIS in the URL to be the content of the QR code. 
+- Since it is a URL hash, editing it doesn't cause the page to refresh. 
+  - Refresh manually to see the change. 
 
 ## Custom skins
 
