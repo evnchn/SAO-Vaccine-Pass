@@ -12,6 +12,10 @@ For some people, it may not be desirable to use LeaveHomeSafe anymore when the n
 
 This is especially true due to the permissions it requests and the data it transmits. 
 
+## Demo
+
+https://evnchn.github.io/SAO-Vaccine-Pass-demo/offline.html
+
 ## Usage guide
 
 Use either ```index.html``` or ```offline.html```. SVG files need to be placed in the same directory for ```index.html```. 
