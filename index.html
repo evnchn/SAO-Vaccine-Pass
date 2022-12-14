@@ -9,7 +9,8 @@
       body {
         width: 100vw;
         margin: 0;
-        background-color: #D8D8D8
+        background-color: #D8D8D8; 
+		height: 100%;
       }
 
       #top,
@@ -46,7 +47,7 @@
 
       #flexboxwrapper {
         display: flex;
-        height: 100vh;
+		height: 100%; 
         flex-direction: column;
       }
 
@@ -77,6 +78,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bwip-js/3.2.2/bwip-js-min.js" integrity="sha512-V5re1kGdd1k7P1hZbxSYPuTq6UZPUFKVebNjImiaEM2dRoVP1DEJy7Kgli4aeX405S3qVi+pFxUR+K123utT/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       var scancontent = 'https://youtu.be/dQw4w9WgXcQ';
+	  hash = decodeURI(location.hash.replace("#",""));
+	  if (hash) {scancontent = hash;}
       let canvas = document.createElement('canvas');
       try {
         bwipjs.toCanvas("my-img", {
